@@ -71,7 +71,7 @@ namespace WeekOneChallenges
         }
 
         [TestMethod]
-        public void bookMovieArrayTwo() //Display
+        public void bookMovieArrayTwo() //Array written to console
         {
             {
                 string[] bookMovieArrayTwo = new string[] {"The Shining", "The Wiz", "Becoming", "Guns, Germs, and Steel"};
@@ -160,6 +160,7 @@ namespace WeekOneChallenges
 
         [TestMethod]
         public void SwitchHowWasYourDay()
+
         {
             string yourDay = "Great";
 
@@ -181,14 +182,14 @@ namespace WeekOneChallenges
                     Console.WriteLine("My day was bad. So much went wrong!");
                     break;
 
-                default:
-                    Console.WriteLine(":(");
+                case ":(":
+                    Console.WriteLine("I'm sorry.");
                     break;
+
+                default:
+                    Console.WriteLine("Nothing to say.")
             }
 
         }
-
-
-      
     } 
 }
